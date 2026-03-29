@@ -1,19 +1,4 @@
-# VoiceAI Enterprise Frontend
-
-Modern React frontend for the AI Voice Platform with Enterprise SaaS features.
-
-## Features
-
-- 🎨 **Modern Enterprise UI** - Deep indigo glassmorphism aesthetic
-- 🔐 **Multi-tenant Auth** - JWT-based with organization context
-- 🎙️ **Voice Testing** - WebSocket-based real-time voice interaction
-- 📊 **Command Center** - Live call monitoring with sentiment analysis
-- 💰 **Cost Savings Widget** - Real-time ROI visualization
-- 📅 **Office Hours Scheduler** - Visual weekly scheduler
-- 📚 **Knowledge Base 2.0** - Hybrid search with query testing
-- 👥 **Team Management** - Invite, roles, and API keys
-- 📱 **Fully Responsive** - Mobile-first design
-
+ 
 ## Tech Stack
 
 - **React 18** - UI framework
@@ -102,22 +87,6 @@ REACT_APP_WS_HOST=your-api-domain.com
 - Sound wave visualization
 - Text input fallback
 
-### 3. Settings Panel
-- **AI Agent Tab**: Provider selection, voice settings, system prompt
-- **Telephony Tab**: Transfer number with 🇮🇳 prefix, owner title dropdown with custom option
-- **Office Hours Tab**: Visual weekly scheduler with drag/click toggles
-- **Escalation Tab**: Keyword tags, feature toggles
-
-### 4. Knowledge Base 2.0
-- Document CRUD with categories
-- **Test Query Box**: Type questions to see which chunks are retrieved
-- Hybrid search toggle (semantic + keyword)
-- Bulk import support
-
-### 5. Team Management
-- Invite members with email
-- Role management (Owner, Admin, Member, Viewer)
-- API key generation and revocation
 
 ## Design System
 
@@ -195,13 +164,6 @@ COPY nginx.conf /etc/nginx/conf.d/default.conf
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 ```
-
-## Contributing
-
-1. Follow the existing code style
-2. Use Tailwind utility classes
-3. Keep components small and focused
-4. Add proper TypeScript types if converting
 
 ## License
 
