@@ -1,15 +1,4 @@
-/**
- * AI Voice Customer Support Platform - Enterprise SaaS Edition
- * Multi-Tenant, Low-Latency Voice Engine with Exotel Telephony
- * 
- * Architecture:
- * - Multi-tenant with org_id scoping (RLS concepts)
- * - Redis for call session state management
- * - Exotel AgentStream bidirectional audio
- * - Parallel/Interleaved latency pipeline
- * - Barge-in interruption handling
- * - Intelligent escalation with warm transfer
- */
+ 
 
 require('dotenv').config();
 const express = require('express');
